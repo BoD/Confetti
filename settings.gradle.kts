@@ -1,6 +1,7 @@
 pluginManagement {
     listOf(repositories, dependencyResolutionManagement.repositories).forEach {
         it.apply {
+            mavenLocal()
             mavenCentral()
             google()
             maven(url = "https://androidx.dev/storage/compose-compiler/repository")
