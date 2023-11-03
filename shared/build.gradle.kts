@@ -130,6 +130,9 @@ kotlin {
                 api(libs.multiplatform.settings.datastore)
                 api(libs.androidx.datastore)
                 api(libs.androidx.datastore.preferences)
+
+                // TODO how to have this in debug build only?
+                implementation("com.apollographql.apollo3:apollo-debug-server")
             }
         }
 
