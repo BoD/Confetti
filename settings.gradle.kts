@@ -9,6 +9,9 @@ pluginManagement {
                     includeGroupByRegex(".*android.*")
                 }
             }
+            maven {
+                url = uri("https://s01.oss.sonatype.org/content/repositories/snapshots/")
+            }
             mavenCentral()
             maven("https://maven.pkg.jetbrains.space/kotlin/p/wasm/experimental")
             gradlePluginPortal {
