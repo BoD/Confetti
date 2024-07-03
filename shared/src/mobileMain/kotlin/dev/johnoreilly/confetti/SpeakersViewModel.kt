@@ -1,5 +1,6 @@
 package dev.johnoreilly.confetti
 
+import com.apollographql.apollo.cache.normalized.FetchPolicy
 import com.rickclephas.kmm.viewmodel.KMMViewModel
 import com.rickclephas.kmm.viewmodel.stateIn
 import dev.johnoreilly.confetti.AppSettings.Companion.CONFERENCE_NOT_SET
