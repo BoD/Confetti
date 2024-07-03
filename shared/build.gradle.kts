@@ -116,6 +116,9 @@ android {
         isCoreLibraryDesugaringEnabled = true
     }
     namespace = "dev.johnoreilly.confetti.shared"
+    buildFeatures {
+        buildConfig = true
+    }
 }
 
 apollo {

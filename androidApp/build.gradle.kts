@@ -40,6 +40,7 @@ fun versionName(): String {
 }
 
 android {
+    namespace = "dev.johnoreilly.confetti"
     compileSdk = AndroidSdk.compile
     defaultConfig {
         applicationId = "dev.johnoreilly.confetti"
@@ -74,6 +75,8 @@ android {
 
     buildFeatures {
         compose = true
+        buildConfig = true
+
     }
 
     composeOptions {

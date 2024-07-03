@@ -4,7 +4,8 @@ plugins {
 }
 
 android {
-    compileSdk = 33
+    namespace = "dev.johnoreilly.confetti.benchmark"
+    compileSdk = 34
 
     defaultConfig {
         minSdk = 29

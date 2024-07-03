@@ -40,6 +40,7 @@ fun versionName(): String {
 }
 
 android {
+    namespace = "dev.johnoreilly.confetti"
     compileSdk = WearSdk.compile
     defaultConfig {
         applicationId = "dev.johnoreilly.confetti"
