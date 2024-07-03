@@ -1,12 +1,11 @@
 package dev.johnoreilly.confetti.work
 
-import com.apollographql.apollo3.cache.normalized.FetchPolicy
-import com.apollographql.apollo3.cache.normalized.fetchPolicy
-import com.apollographql.apollo3.cache.normalized.writeToCacheAsynchronously
+import com.apollographql.apollo.cache.normalized.FetchPolicy
+import com.apollographql.apollo.cache.normalized.fetchPolicy
+import com.apollographql.apollo.cache.normalized.writeToCacheAsynchronously
 import dev.johnoreilly.confetti.ApolloClientCache
 import dev.johnoreilly.confetti.GetConferenceDataQuery
 import dev.johnoreilly.confetti.GetConferencesQuery
-import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.supervisorScope
 

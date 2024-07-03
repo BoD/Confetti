@@ -1,11 +1,11 @@
 
 package dev.johnoreilly.confetti
 
-import com.apollographql.apollo3.ApolloCall
-import com.apollographql.apollo3.api.ApolloResponse
-import com.apollographql.apollo3.api.ExecutionContext
-import com.apollographql.apollo3.api.Operation
-import com.apollographql.apollo3.exception.ApolloException
+import com.apollographql.apollo.ApolloCall
+import com.apollographql.apollo.api.ApolloResponse
+import com.apollographql.apollo.api.ExecutionContext
+import com.apollographql.apollo.api.Operation
+import com.apollographql.apollo.exception.ApolloException
 import com.benasher44.uuid.uuid4
 
 val ApolloResponse<*>.exception: ApolloException?

@@ -4,9 +4,9 @@
 package dev.johnoreilly.confetti.backend
 
 import Trace
-import com.apollographql.apollo3.annotations.ApolloExperimental
-import com.apollographql.apollo3.tooling.RegisterOperations
-import com.apollographql.apollo3.tooling.SchemaUploader
+import com.apollographql.apollo.annotations.ApolloExperimental
+import com.apollographql.apollo.tooling.RegisterOperations
+import com.apollographql.apollo.tooling.SchemaUploader
 import com.expediagroup.graphql.apq.cache.DefaultAutomaticPersistedQueriesCache
 import com.expediagroup.graphql.apq.provider.AutomaticPersistedQueriesProvider
 import com.expediagroup.graphql.generator.SchemaGeneratorConfig

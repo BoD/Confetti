@@ -1,7 +1,7 @@
 package dev.johnoreilly.confetti
 
-import com.apollographql.apollo3.api.ApolloResponse
-import com.apollographql.apollo3.cache.normalized.FetchPolicy
+import com.apollographql.apollo.api.ApolloResponse
+import com.apollographql.apollo.cache.normalized.FetchPolicy
 import com.rickclephas.kmm.viewmodel.KMMViewModel
 import com.rickclephas.kmm.viewmodel.coroutineScope
 import com.rickclephas.kmm.viewmodel.stateIn

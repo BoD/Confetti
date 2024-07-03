@@ -3,7 +3,7 @@ accompanist = "0.29.2-rc"
 activity-compose = "1.7.0-rc01"
 androidx-lifecycle = "2.5.1"
 androidx-datastore = "1.1.0-alpha01"
-apollo = "3.7.5"
+apollo = "4.0.0-beta.7"
 compose = "1.4.0-rc01"
 compose-compiler = "1.4.4-dev-k1.8.20-RC-88d9f3a8232"
 compose-material-3 = "1.0.1"
@@ -37,12 +37,12 @@ androidx-datastore-preferences = { module = "androidx.datastore:datastore-prefer
 androidx-lifecycle-livedata-ktx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycle-livedata-ktx" }
 androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "androidx-lifecycle" }
 androidx-work-runtime-ktx = { module = "androidx.work:work-runtime-ktx", version.ref = "work-runtime-ktx" }
-apollo-adapters = { module = "com.apollographql.apollo3:apollo-adapters" }
-apollo-normalized-cache-in-memory = { module = "com.apollographql.apollo3:apollo-normalized-cache" }
-apollo-normalized-cache-sqlite = { module = "com.apollographql.apollo3:apollo-normalized-cache-sqlite" }
-apollo-runtime = { module = "com.apollographql.apollo3:apollo-runtime" }
-apollo-annotations = { module = "com.apollographql.apollo3:apollo-annotations", version.ref = "apollo" }
-apollo-tooling = { module = "com.apollographql.apollo3:apollo-tooling", version.ref = "apollo" }
+apollo-adapters = { module = "com.apollographql.apollo:apollo-adapters" }
+apollo-normalized-cache-in-memory = { module = "com.apollographql.apollo:apollo-normalized-cache" }
+apollo-normalized-cache-sqlite = { module = "com.apollographql.apollo:apollo-normalized-cache-sqlite" }
+apollo-runtime = { module = "com.apollographql.apollo:apollo-runtime" }
+apollo-annotations = { module = "com.apollographql.apollo:apollo-annotations", version.ref = "apollo" }
+apollo-tooling = { module = "com.apollographql.apollo:apollo-tooling", version.ref = "apollo" }
 bare-graphQL = "net.mbonnin.bare-graphql:bare-graphql:0.0.2"
 coil-base = "io.coil-kt:coil-base:2.2.2"
 coil-compose = "io.coil-kt:coil-compose:2.2.2"
@@ -110,7 +110,7 @@ okhttp-logging-interceptor = "com.squareup.okhttp3:logging-interceptor:5.0.0-alp
 play-services-auth = "com.google.android.gms:play-services-auth:20.4.1"
 plugin-kotlin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
 plugin-android-application = "com.android.tools.build:gradle:7.4.1"
-plugin-apollo = "com.apollographql.apollo3:apollo-gradle-plugin:3.7.5"
+plugin-apollo = "com.apollographql.apollo:apollo-gradle-plugin:4.0.0-beta.7"
 plugin-appengine = "com.google.cloud.tools:appengine-gradle-plugin:2.4.5"
 plugin-firebase-crashlytics = { module = "com.google.firebase:firebase-crashlytics-gradle", version = "2.9.4" }
 plugin-google-services = "com.google.gms:google-services:4.3.15"

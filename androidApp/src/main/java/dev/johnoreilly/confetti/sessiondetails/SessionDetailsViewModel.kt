@@ -3,7 +3,6 @@ package dev.johnoreilly.confetti.sessiondetails
 import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.apollographql.apollo3.cache.normalized.FetchPolicy
 import dev.johnoreilly.confetti.ConfettiRepository
 import dev.johnoreilly.confetti.fragment.SessionDetails
 import dev.johnoreilly.confetti.sessiondetails.navigation.SessionDetailsDestination

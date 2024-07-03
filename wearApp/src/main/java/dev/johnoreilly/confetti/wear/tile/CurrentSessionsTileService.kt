@@ -6,18 +6,14 @@ import androidx.wear.tiles.EventBuilders
 import androidx.wear.tiles.RequestBuilders
 import androidx.wear.tiles.ResourceBuilders
 import androidx.wear.tiles.TileBuilders
-import com.apollographql.apollo3.cache.normalized.FetchPolicy
+import com.apollographql.apollo.cache.normalized.FetchPolicy
 import com.google.android.horologist.tiles.ExperimentalHorologistTilesApi
 import com.google.android.horologist.tiles.SuspendingTileService
 import dev.johnoreilly.confetti.ConfettiRepository
 import dev.johnoreilly.confetti.analytics.AnalyticsLogger
 import dev.johnoreilly.confetti.toTimeZone
 import dev.johnoreilly.confetti.wear.complication.nextSessionOrNull
-import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.runBlocking
-import kotlinx.datetime.Clock
-import kotlinx.datetime.toLocalDateTime
-import kotlinx.datetime.todayIn
 import org.koin.android.ext.android.inject
 
 class CurrentSessionsTileService : SuspendingTileService() {

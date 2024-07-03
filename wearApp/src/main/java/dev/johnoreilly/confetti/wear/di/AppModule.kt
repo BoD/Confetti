@@ -3,7 +3,6 @@
 package dev.johnoreilly.confetti.wear.di
 
 import android.content.Context
-import com.apollographql.apollo3.cache.normalized.FetchPolicy
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInOptions
 import com.google.android.horologist.auth.data.ExperimentalHorologistAuthDataApi

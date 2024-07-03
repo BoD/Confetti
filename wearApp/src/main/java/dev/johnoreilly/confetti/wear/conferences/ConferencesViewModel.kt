@@ -3,14 +3,11 @@ package dev.johnoreilly.confetti.wear.conferences
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.work.WorkManager
-import com.apollographql.apollo3.cache.normalized.FetchPolicy
 import dev.johnoreilly.confetti.ConferenceRefresh
-import dev.johnoreilly.confetti.ConferencesViewModel
 import dev.johnoreilly.confetti.ConfettiRepository
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.flow
-import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.flow.stateIn
 import kotlinx.coroutines.launch
 

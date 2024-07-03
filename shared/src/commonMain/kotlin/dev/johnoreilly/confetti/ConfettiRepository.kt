@@ -2,32 +2,19 @@
 
 package dev.johnoreilly.confetti
 
-import com.apollographql.apollo3.ApolloCall
-import com.apollographql.apollo3.api.ApolloResponse
-import com.apollographql.apollo3.api.Mutation
-import com.apollographql.apollo3.cache.normalized.FetchPolicy
-import com.apollographql.apollo3.cache.normalized.apolloStore
-import com.apollographql.apollo3.cache.normalized.fetchPolicy
-import com.apollographql.apollo3.cache.normalized.optimisticUpdates
-import com.apollographql.apollo3.cache.normalized.watch
-import dev.johnoreilly.confetti.fragment.SessionDetails
+import com.apollographql.apollo.ApolloCall
+import com.apollographql.apollo.api.ApolloResponse
+import com.apollographql.apollo.api.Mutation
+import com.apollographql.apollo.cache.normalized.FetchPolicy
+import com.apollographql.apollo.cache.normalized.apolloStore
+import com.apollographql.apollo.cache.normalized.fetchPolicy
+import com.apollographql.apollo.cache.normalized.optimisticUpdates
+import com.apollographql.apollo.cache.normalized.watch
 import dev.johnoreilly.confetti.type.buildBookmarks
-import kotlinx.coroutines.CoroutineScope
 import kotlinx.coroutines.ExperimentalCoroutinesApi
-import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.SharingStarted
-import kotlinx.coroutines.flow.StateFlow
-import kotlinx.coroutines.flow.catch
 import kotlinx.coroutines.flow.emitAll
-import kotlinx.coroutines.flow.filterNotNull
-import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.flow.flow
-import kotlinx.coroutines.flow.flowOf
-import kotlinx.coroutines.flow.map
-import kotlinx.coroutines.flow.stateIn
-import kotlinx.datetime.LocalDate
-import kotlinx.datetime.TimeZone
 import org.koin.core.component.KoinComponent
 import org.koin.core.component.inject
 

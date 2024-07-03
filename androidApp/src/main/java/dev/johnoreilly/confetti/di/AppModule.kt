@@ -1,6 +1,5 @@
 package dev.johnoreilly.confetti.di
 
-import com.apollographql.apollo3.cache.normalized.FetchPolicy
 import dev.johnoreilly.confetti.AppViewModel
 import dev.johnoreilly.confetti.ConferenceRefresh
 import dev.johnoreilly.confetti.ConferencesViewModel

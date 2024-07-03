@@ -1,7 +1,7 @@
 plugins {
     kotlin("multiplatform")
     id("com.android.library")
-    id("com.apollographql.apollo3")
+    id("com.apollographql.apollo")
     id("com.google.devtools.ksp")
     id("com.rickclephas.kmp.nativecoroutines")
     id("co.touchlab.faktory.kmmbridge")
@@ -128,13 +128,13 @@ apollo {
         mapScalar(
             "LocalDateTime",
             "kotlinx.datetime.LocalDateTime",
-            "com.apollographql.apollo3.adapter.KotlinxLocalDateTimeAdapter"
+            "com.apollographql.apollo.adapter.KotlinxLocalDateTimeAdapter"
         )
 
         mapScalar(
             "LocalDate",
             "kotlinx.datetime.LocalDate",
-            "com.apollographql.apollo3.adapter.KotlinxLocalDateAdapter"
+            "com.apollographql.apollo.adapter.KotlinxLocalDateAdapter"
         )
 
         introspection {
