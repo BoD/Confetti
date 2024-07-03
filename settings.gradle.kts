@@ -2,6 +2,9 @@
 pluginManagement {
     listOf(repositories, dependencyResolutionManagement.repositories).forEach {
         it.apply {
+            maven {
+                url = uri("https://s01.oss.sonatype.org/content/repositories/snapshots/")
+            }
             mavenCentral()
             google()
             maven("https://androidx.dev/storage/compose-compiler/repository")
